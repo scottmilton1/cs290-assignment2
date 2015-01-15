@@ -9,16 +9,6 @@ table th, table td {
   border: 1px solid black;
 }
 
-/* table caption */
-table caption {
-
-}
-
-/* table header */
-table thead th {
-
-}
-
 /* first column of the table */
 table tbody th {
   font-style: italic;
@@ -31,7 +21,7 @@ table tbody th + td {
 }
 
 /* third non-header cell of each non-header row */
-table tbody th + td + td + td {
+table tbody td:nth-child(4) {
   color: blue;
 }
 
