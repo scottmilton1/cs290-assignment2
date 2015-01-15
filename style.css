@@ -1,7 +1,12 @@
 /* table styles */
 
 table {
+  empty-cells: show;
+  border: 1px solid black;
+}
 
+table th, table td {
+  border: 1px solid black;
 }
 
 /* table caption */
@@ -15,27 +20,28 @@ table thead th {
 }
 
 /* first column of the table */
-table tbody tr > th:firstchild {
-
+table tbody th {
+  font-style: italic;
+  font-weight: normal;
 }
 
 /* first non-header cell of each non-header row */
-table tbody > th + td {
-
+table tbody th + td {
+  color: red;
 }
 
 /* third non-header cell of each non-header row */
-table tbody > th + td + td + td {
-
+table tbody th + td + td + td {
+  color: blue;
 }
 
 /* Odd non-header/footer rows */
 /* I found help here: http://www.w3.org/Style/Examples/007/evenodd.en.html */
 table tbody tr:nth-child(odd) {
-
+  background: #CF9; /* light green */
 }
 
 /* Even non-header/footer rows */
 table tbody tr:nth-child(even) {
-
+  background: #9CF; /* light blue */
 }
