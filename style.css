@@ -1,0 +1,41 @@
+/* table styles */
+
+table {
+
+}
+
+/* table caption */
+table caption {
+
+}
+
+/* table header */
+table thead th {
+
+}
+
+/* first column of the table */
+table tbody tr > th:firstchild {
+
+}
+
+/* first non-header cell of each non-header row */
+table tbody > th + td {
+
+}
+
+/* third non-header cell of each non-header row */
+table tbody > th + td + td + td {
+
+}
+
+/* Odd non-header/footer rows */
+/* I found help here: http://www.w3.org/Style/Examples/007/evenodd.en.html */
+table tbody tr:nth-child(odd) {
+
+}
+
+/* Even non-header/footer rows */
+table tbody tr:nth-child(even) {
+
+}
