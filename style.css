@@ -35,3 +35,12 @@ table tbody tr:nth-child(odd) {
 table tbody tr:nth-child(even) {
   background: #9CF; /* light blue */
 }
+
+
+/*dl list styles */
+
+/* When hovering over dt entry, its dd item gets a purple background */
+/* I found help here: http://www.w3.org/Style/Examples/007/evenodd.en.html */
+dl dt:hover + dd {
+  background-color: purple;
+}
