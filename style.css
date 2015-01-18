@@ -44,3 +44,24 @@ table tbody tr:nth-child(even) {
 dl dt:hover + dd {
   background-color: purple;
 }
+
+
+/* div styles */
+.outer-content {
+  background: pink;
+  margin: 20px;
+  width: 75%;
+}
+
+#inner-content {
+  background: blue;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  width: 75%;
+}
+
+
+/* image styles */
+img {
+  float: left;
+}
