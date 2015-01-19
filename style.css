@@ -1,8 +1,12 @@
+/*
+  Style sheet for CS290 Assignment 2 by Scott Milton
+*/
+
 /* table styles */
 
 table {
-  empty-cells: show;
   border: 1px solid black;
+  empty-cells: show;
 }
 
 table th, table td {
@@ -42,18 +46,19 @@ table tbody tr:nth-child(even) {
 /* When hovering over dt entry, its dd item gets a purple background */
 /* I found help here: http://www.w3.org/Style/Examples/007/evenodd.en.html */
 dl dt:hover + dd {
-  background-color: purple;
+  background: purple;
 }
 
 
 /* div styles */
+
 .outer-content {
   background: pink;
   margin: 20px;
   width: 75%;
 }
 
-#inner-content {
+.inner-content {
   background: blue;
   margin: 0 auto 0 auto;
   text-align: center;
@@ -63,5 +68,7 @@ dl dt:hover + dd {
 
 /* image styles */
 img {
+  height: 125px;
   float: left;
+  width: 100px;
 }

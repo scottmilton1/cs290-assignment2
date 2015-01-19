@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!--
+      CS290 Assignment 2
+      Name: Scott Milton
+      Date: 1/18/15
+      Description:  This is a simple webpage to demonstrate understanding
+        of basic HTML elements and CSS styling.
+    -->
     <meta charset="UTF-8">
     <title>CS290-Assignment2</title>
     <link rel="stylesheet" href="style.css">
@@ -9,7 +16,7 @@
     <!-- 6 x 6 table (inclusive of header row) -->
     <table>
       <caption>
-        Table Contents
+        Stylish Foo Chart
       </caption>
       <thead>
         <tr>
@@ -70,9 +77,8 @@
       <dd>Description
     </dl>
 
-<!-- http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php -->
-
-    <form action="" method="get">
+    <!-- post form -->
+    <form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="post">
       <label>Text:</label>
       <input type="text" name="text_input">
       </input>
@@ -93,7 +99,8 @@
 
     <br>
 
-    <form action="" method="post">
+    <!-- get form -->
+    <form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="get">
       <label>Text:</label>
       <input type="text" name="text_input">
       </input>
@@ -114,7 +121,7 @@
 
     <div class="outer-content">
       outer content
-      <div id="inner-content">
+      <div class="inner-content">
         inner content
       </div>
       more outer content
